@@ -20,4 +20,5 @@ public:
 	std::vector<row*> table;
 	void from_csv(const std::string &path);
 	void print_all_data();
+	void to_csv(const std::string &path);
 };

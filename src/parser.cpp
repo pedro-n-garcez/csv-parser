@@ -52,3 +52,14 @@ void DataFrame::print_all_data() {
 		std::cout << table[i]->number << "\t" << table[i]->category << "\t" << table[i]->name << "\t" << table[i]->email << std::endl;
 	}
 }
+
+void DataFrame::to_csv(const std::string &path) {
+	std::ofstream output(path);
+
+	for (size_t i = 0; i < table.size(); i++) {
+		output << table[i]->number << ",";
+		output << table[i]->category << ",";
+		output << table[i]->name << ",";
+		output << table[i]->email << std::endl;
+	}
+}
