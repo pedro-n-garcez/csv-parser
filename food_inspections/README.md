@@ -1,0 +1,1 @@
+Requires the Food Inspections dataset from the City of Chicago, which can be obtained at https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5/data
